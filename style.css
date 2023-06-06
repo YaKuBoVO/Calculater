@@ -75,3 +75,41 @@ form {
       border: none;
       outline: none !important;
    }
+
+
+
+@media only screen and (max-width: 413px) {
+   .top-calculator {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+form {
+    width: 295px;
+    height: 350px;
+    background-color: #100A58FF;
+    padding: 18px 20px;
+    border-radius: 10px;
+   }
+
+   .top-calculator form table .head input#display {
+      font-size: 19px;
+      color: #333;
+      padding: 10px 8px;
+      margin-bottom: 16px;
+      outline: none;
+   }
+
+   .top-calculator form .border input {
+      width: 50px;
+      height: 50px;
+      font-size: 20px;
+      margin: 6px 2px;
+      background-color: linear-gradient(to bottom right, rgba(79,51,176,1), rgba(210, 53,165));
+      color: #333;
+      border-radius: 50%;
+      border: none;
+      outline: none;
+   }
+}
