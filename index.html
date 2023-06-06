@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Mustaqil-Amaliyot</title>
+</head>
+
+<body>
+   <!--<h1 id="demo">Hello World!</h1>
+   <button id="btn">Show a dialog</button>-->
+   <!--<div class="parents">
+   <div id="demo" style="width: 200px; height: 200px; background-color: yellow;">Hello World!</div>
+   <button onclick="show()">Show</button>
+   <button onclick="hide()">Hide</button>
+</div>-->
+
+
+   <div class="top-calculator">
+      <h1>Simple Calculator css</h1>
+      <form name="calculator">
+         <table>
+            <tr>
+               <td colspan="4" class="head">
+                  <input type="text" name="display" id="display" disabled placeholder="0">
+               </td>
+            </tr>
+            <tr class="border">
+               <td><input type="button" name="seven" value="7" onclick="myFunc('7')"></td>
+               <td><input type="button" name="eight" value="8" onclick="myFunc('8')"></td>
+               <td><input type="button" name="nine" value="9" onclick="myFunc('9')"></td>
+               <td><input type="button" class="operator" name="times" value="x"
+                     onclick="myFunc('*') ">
+               </td>
+            </tr>
+            <tr class="border">
+               <td><input type="button" name="four" value="4" onclick="myFunc('4')"></td>
+               <td><input type="button" name="five" value="5" onclick="myFunc('5')"></td>
+               <td><input type="button" name="six" value="6" onclick="myFunc('6')"></td>
+               <td><input type="button" class="operator" name="minus" value="--"
+                     onclick="myFunc('-') ">
+               </td>
+            </tr>
+            <tr class="border">
+               <td><input type="button" name="one" value="1" onclick="myFunc('1')"></td>
+               <td><input type="button" name="two" value="2" onclick="myFunc('2')"></td>
+               <td><input type="button" name="three" value="3" onclick="myFunc('3')"></td>
+               <td><input type="button" class="operator" name="plus" value="+"
+                     onclick="myFunc('+') ">
+               </td>
+            </tr>
+            <tr class="clear border">
+               <td><input type="button" id="clear" name="clear" value="c" onclick="calculator.display.value = '' ">
+               </td>
+               <td><input type="button" name="zero" value="0" onclick="myFunc('0') "></td>
+               <td><input type="button" name="doit" value="="
+                     onclick="calculator.display.value = eval(calculator.display.value  ) "></td>
+               <td><input type="button" class="operator" name="div" value="/"
+                     onclick="myFunc('/') ">
+               </td>
+            </tr>
+         </table>
+      </form>
+   </div>
+   <script src="script.js"></script>
+</body>
+
+</html>
